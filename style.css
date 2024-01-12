@@ -1,0 +1,46 @@
+.page1 {
+    background: linear-gradient(to right, #41e400 10%, #E4B600 90%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    width: 40vw !important;
+    height: 50vh;
+    background-color: #f7fbff96;
+    border-radius: 20px;
+}
+
+.box>h1 {
+    text-align: center;
+    color: #E4B600;
+}
+
+.ip-line {
+    margin-top: 6vh !important;
+}
+
+select,
+input {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px !important;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+
+.conv-btn {
+    background-color: #E4B600;
+    width: 38vw !important;
+    color: aliceblue;
+    border: none;
+    height: 7vh;
+    margin-top: 5vh;
+    font-size: 1.7vw;
+    border-radius: 10px;
+text-transform: capitalize;
+}
